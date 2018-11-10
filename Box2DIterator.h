@@ -8,7 +8,7 @@ private:
     Box2D m_box;
 
 public:
-    Box2DIterator(Box2D box);
+    Box2DIterator();
     void start();
     void next();
 };

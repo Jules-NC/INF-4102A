@@ -1,7 +1,7 @@
 #include "Box2DIterator.h"
 
-Box2DIterator::Box2DIterator(Box2D box){
-    this->m_box = box;
+Box2DIterator::Box2DIterator(){
+    //this->m_box = box;
     this->m_nl = 0;
     this->m_nc = 0;
 }

@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall # -ggdb
 LDFLAGS =
 INCLUDES =
-EXEC_NAME = exo2
+EXEC_NAME = projet.out
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)
 
