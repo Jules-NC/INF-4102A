@@ -4,6 +4,7 @@
 
 std::size_t Box2D::getNl() const{
     return this->m_nl;
+    Point2D p = Point2D(1, 1);
 }
 
 std::size_t Box2D::getNc() const{
@@ -11,7 +12,7 @@ std::size_t Box2D::getNc() const{
 }
 
 Point2D Box2D::getPoint(std::size_t x, std::size_t y){
-    Point2D lol = Point2D();  // TODO: A SUPPRIMER
+    Point2D lol = Point2D(1, 1);
     return lol;
 }
 
